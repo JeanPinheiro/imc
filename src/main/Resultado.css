@@ -1,0 +1,12 @@
+.resultado{    
+    grid-column: span 4;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    font-size: 1em;
+    overflow: hidden;
+    color: black;
+    height: 100px;
+}

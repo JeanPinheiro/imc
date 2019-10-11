@@ -1,0 +1,39 @@
+.imc{
+    height: 320px;
+    width: 235px;
+    border-radius: 5px;
+    overflow: hidden;
+    /* display: grid; */
+    /* grid-template-columns: repeat(4, 25%); */
+    /* grid-template-rows: 1fr 48px 48px 48px 48px 48px; */
+    background: white;
+}
+
+
+.imc input{
+
+    display: flex;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    border: none;
+    background: #e9f0f1;
+    text-align: center;
+    color: green;
+    outline: none;
+    margin-bottom: 5px;
+}
+
+.imc button{
+    
+    padding: 10px;
+    margin-left: 1%;
+    float: left;
+    width: 48.5%;
+    background: #8edabc;
+    border: none;
+    border-radius: 5px;
+}
+
+.imc button:first-of-type{
+    background: #dada53
+}
